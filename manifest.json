@@ -1,0 +1,21 @@
+{
+    "name": "Quote of the Day",
+    "version": "1.0",
+    "icons": {
+        "19": "images/icon19.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "description": "An extension for a new daily quote",
+    "browser_action":{
+      "default_icon": {
+        "19": "images/icon19.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      },
+      "default_popup":"popup.html"
+    },
+    "permissions":["activeTab","<all_urls>"],
+    "content_security_policy":"script-src 'self' 'unsafe-eval' https://favqs.com/api/qotd; object-src 'self'",
+    "manifest_version": 2
+  }

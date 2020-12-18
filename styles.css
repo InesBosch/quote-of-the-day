@@ -1,0 +1,11 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    width: 385px;
+    min-height: 100px;
+    background-image: linear-gradient(#cabd72,#d5cea6);
+}
+
+.author{
+    font-style: italic;
+}
